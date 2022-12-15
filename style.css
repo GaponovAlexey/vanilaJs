@@ -20,9 +20,8 @@ body {
   background: #333333;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
-  place-items: center;
-  min-width: 320px;
+  justify-content: left;
+  place-items: top;
   min-height: 100vh;
 }
 
