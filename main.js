@@ -1,3 +1,6 @@
+document.querySelector("h1").innerHTML = `<div>name</div>`;
+
 jQuery(document).ready(function () {
-  const c = $("input");
-})
+  // const l = $("h1");
+
+});
