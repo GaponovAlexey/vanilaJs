@@ -11,7 +11,8 @@ body {
   display: flex;
 }
 
-.central {
+.js-body,
+.jq-body {
   height: 100%;
   width: 100%;
 }

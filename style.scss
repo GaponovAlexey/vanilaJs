@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
   display: flex;
 }
-.central {
+.js-body,
+.jq-body {
   height: 100%;
   width: 100%;
 }
@@ -49,6 +50,4 @@ h1 {
 .jq-button,
 .js-button {
   margin: 0.52rem;
-  
 }
-
