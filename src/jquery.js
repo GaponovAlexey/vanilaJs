@@ -1,4 +1,4 @@
-const b = $(".jq-button");
+const b = $(".jq-buttons");
 const b1 = $("<button class='jq-button'>green</button>");
 const b2 = $("<button class='jq-button'>yellow</button>");
 const b3 = $("<button class='jq-button'>red</button>");

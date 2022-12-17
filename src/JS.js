@@ -3,14 +3,14 @@ const b3 = "<button class='js-button'>red</button button>";
 const b2 = "<button class='js-button'>yellow</button>";
 const b4 = "<button class='js-button'>pink</button>";
 
-const b = document.querySelector(".js-button");
-const el = document.querySelectorAll(".js-button");
-// const b1e = document.querySelector(".js-b")
-// b.add(b1) = b1;
-b.children.innerHTML += b1 + b2 + b3 + b4;
-console.log(b);
+const f = document.querySelector(".js-first");
+const b = document.querySelector(".js-buttons");
+b.innerHTML += b1 + b2 + b3 + b4;
 
-// ba["red"].addEventListener("click", (e) => {
-//   console.log("yellow", )
+const el = document.querySelectorAll(".js-buttons");
+const s = el[0].querySelectorAll("button");
 
-// })
+s[0].addEventListener("click", () => (f.style.background = "#377755"));
+s[1].addEventListener("click", () => (f.style.background = "#366655"));
+s[2].addEventListener("click", () => (f.style.background = "#355555"));
+s[3].addEventListener("click", () => (f.style.background = "#344455"));

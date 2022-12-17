@@ -47,11 +47,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   background: #324443;
 }
 
-.jq-button,
-.js-button {
+.jq-buttons,
+.js-buttons {
   margin: 0.52rem;
 }/*# sourceMappingURL=style.css.map */
