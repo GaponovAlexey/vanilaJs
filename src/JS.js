@@ -61,11 +61,4 @@ cl.addEventListener("click", () => {
 });
 
 const menu = document.querySelector(".menu");
-menu.style.cssText = `
-color: #944567;
-position: fixed;
-top: 0;
-left: 0;
-padding: 10px;
-
-`;
+menu.style.cssText = `position: fixed; top: 0; left: 0; padding: 10px;`;
